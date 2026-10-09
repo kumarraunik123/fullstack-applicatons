@@ -28,4 +28,4 @@ jobs:
         run: node --check index.js
 
       - name: Build Docker image
-        run: docker build -t backend-app:ci ./Backend
+        run: docker build -t backend-app:ci ./Backend 
